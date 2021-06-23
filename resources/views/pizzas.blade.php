@@ -31,18 +31,22 @@
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0 main-title">
                     <h1>Pizza List</h1>
                 </div>
-                <p>
+                {{-- <p>
                     {{ $type }}
                 </p>
                 <p>
                     {{ $base }} - {{ $price }}
-                </p>
+                </p> --}}
 
-                @if($price > 1000)
-                    <p>This pizza is cheap</p>
-                @elseif($price > 5000)
-                <p>This is pizza is expensive</p>
-                @endif    
+                {{-- @for($i = 0; $i < count($pizzas); $i++)
+                    <p>{{ $pizzas[$i]['type'] }}</p>
+                @endfor --}}
+
+                @foreach($pizzas as $pizza)
+                    <div>
+                        {{ $pizza['type'] }} - {{ $pizza['base'] }}
+                    </div>
+                @endforeach
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
