@@ -23,9 +23,18 @@
                 font-size: 8rem;
                 color: #fff;
             }
+            footer{
+                background: #eee;
+                padding: 20px;
+                text-align: center
+            }
         </style>
     </head>
     <body>
         @yield('content')
+
+        <footer>
+            Copyright 2021 Pizza House
+        </footer>
     </body>
     </html>
