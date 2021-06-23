@@ -2,10 +2,13 @@
 
        @section('content')
            
-       <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0 main-title">
-                    <h1>Pizza List</h1>
+       <div class="">
+            <div class="container">
+                <div class="image">
+                    <h1>UVE EAGLE CONFECTIONERIES</h1>
+                </div>
+                <div class="main-title">
+                    <h1>Welcome</h1>
                 </div>
                 {{-- <p>
                     {{ $type }}
@@ -19,7 +22,7 @@
                 @endfor --}}
 
                 @foreach($pizzas as $pizza)
-                    <div>
+                    <div class="items">
                         {{ $loop->index }} {{ $pizza['type'] }} - {{ $pizza['base'] }}
 
                         @if($loop->first)
