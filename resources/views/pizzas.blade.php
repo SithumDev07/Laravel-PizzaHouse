@@ -8,7 +8,7 @@
                     <h1>UVE EAGLE CONFECTIONERIES</h1>
                 </div>
                 <div class="main-title">
-                    <h1>Welcome</h1>
+                    <h1>Welcome {{ $name }}</h1>
                 </div>
                 {{-- <p>
                     {{ $type }}
@@ -26,7 +26,7 @@
                         {{ $loop->index }} {{ $pizza['type'] }} - {{ $pizza['base'] }}
 
                         @if($loop->first)
-                            <span>= First in the loop</span>
+                            <span> {{ $age }} </span>
                         @endif
 
                         @if ($loop->last)
