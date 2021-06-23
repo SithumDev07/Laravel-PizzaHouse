@@ -44,7 +44,17 @@
 
                 @foreach($pizzas as $pizza)
                     <div>
-                        {{ $pizza['type'] }} - {{ $pizza['base'] }}
+                        {{ $loop->index }} {{ $pizza['type'] }} - {{ $pizza['base'] }}
+
+                        @if($loop->first)
+                            <span>= First in the loop</span>
+                        @endif
+
+                        @if ($loop->last)
+                            <span>
+                                - Last in the loop
+                            </span>
+                        @endif
                     </div>
                 @endforeach
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
