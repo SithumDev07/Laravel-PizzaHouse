@@ -1,31 +1,12 @@
 @extends('layouts.layout')
 
 @section('content')
-    
-<div class="">
-     <div class="container">
-         <div class="image">
-             <h1>UVE EAGLE CONFECTIONERIES</h1>
-         </div>
-         <div class="main-title">
-             <h1>Welcome</h1>
-         </div>
-         {{-- <p>
-             {{ $type }}
-         </p>
-         <p>
-             {{ $base }} - {{ $price }}
-         </p> --}}
+   
+    <div class="wrapper pizza-details">
+        <h1>Order for {{ $pizza->name }}</h1>
+        <p class="type">Type is - {{ $pizza->type }}</p>
+        <p class="base">Type is - {{ $pizza->base }}</p>
+    </div>
 
-         {{-- @for($i = 0; $i < count($pizzas); $i++)
-             <p>{{ $pizzas[$i]['type'] }}</p>
-         @endfor --}}
-
-         <div>
-             Pizza List - {{ $id }}
-         </div>
-        
-     </div>
- </div>
-
+    <a href="/pizzas" class="back">Back to all pizzas</a>
  @endsection
