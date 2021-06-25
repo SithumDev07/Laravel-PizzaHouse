@@ -22,7 +22,7 @@
          @endfor --}}
 
          <div>
-             Pizza List - {{ $id }}
+             Add a new pizza
          </div>
         
      </div>
