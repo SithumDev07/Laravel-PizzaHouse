@@ -8,7 +8,7 @@
                     <h1>UVE EAGLE CONFECTIONERIES</h1>
                 </div>
                 <div class="main-title">
-                    <h1>Welcome {{ $name }}</h1>
+                    <h1>Welcome</h1>
                 </div>
                 {{-- <p>
                     {{ $type }}
@@ -23,17 +23,7 @@
 
                 @foreach($pizzas as $pizza)
                     <div class="items">
-                        {{ $loop->index }} {{ $pizza['type'] }} - {{ $pizza['base'] }}
-
-                        @if($loop->first)
-                            <span> {{ $age }} </span>
-                        @endif
-
-                        @if ($loop->last)
-                            <span>
-                                - Last in the loop
-                            </span>
-                        @endif
+                        {{ $pizza->name }} - {{ $pizza->type }} - {{ $pizza->base }}
                     </div>
                 @endforeach
                
