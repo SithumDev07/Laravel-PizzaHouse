@@ -41,7 +41,7 @@ footer {
 
 .container {
     height: 100vh;
-    background: #424242;
+    background: #ddd;
     display: flex;
     justify-items: center;
     flex-direction: column;

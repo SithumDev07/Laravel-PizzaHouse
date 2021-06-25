@@ -2,30 +2,28 @@
 
 @section('content')
     
-<div class="">
-     <div class="container">
-         <div class="image">
-             <h1>UVE EAGLE CONFECTIONERIES</h1>
-         </div>
-         <div class="main-title">
-             <h1>Welcome</h1>
-         </div>
-         {{-- <p>
-             {{ $type }}
-         </p>
-         <p>
-             {{ $base }} - {{ $price }}
-         </p> --}}
-
-         {{-- @for($i = 0; $i < count($pizzas); $i++)
-             <p>{{ $pizzas[$i]['type'] }}</p>
-         @endfor --}}
-
-         <div>
-             Add a new pizza
-         </div>
-        
-     </div>
- </div>
+    <div class="wrapper create-pizza">
+        <h1>Create a new Pizza</h1>
+        <form action="/pizzas" method="POST">
+            @csrf
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="type">Choose pizza type:</label>
+            <select name="type" id="type">
+                <option value="margherita">Margherita</option>
+                <option value="hawaiin">Hawaiin</option>
+                <option value="veg supreme">Veg Supreme</option>
+                <option value="volcano">Volcano</option>
+            </select>
+            <label for="base">Choose base type:</label>
+            <select name="base" id="base">
+                <option value="cheesy crust">Cheesy Crust</option>
+                <option value="garlic crust">Garlic Crust</option>
+                <option value="thin & crispy">Thin & Crispy</option>
+                <option value="thick">Thick</option>
+            </select>
+            <input type="submit" value="Order Pizza">
+        </form>
+    </div>
 
  @endsection
