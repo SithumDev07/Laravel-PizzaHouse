@@ -2,32 +2,13 @@
 
        @section('content')
            
-       <div class="">
-            <div class="container">
-                <div class="image">
-                    <h1>UVE EAGLE CONFECTIONERIES</h1>
+       <div class="wrapper pizza-index">
+           <h1>Pizza Orders</h1>
+            @foreach($pizzas as $pizza)
+                <div class="pizza-item">
+                    <img src="/images/pizza.png" alt="Pizza">
+                    <h4><a href="/pizzas/{{ $pizza->id }}">{{ $pizza->name }}</a></h4>
                 </div>
-                <div class="main-title">
-                    <h1>Welcome</h1>
-                </div>
-                {{-- <p>
-                    {{ $type }}
-                </p>
-                <p>
-                    {{ $base }} - {{ $price }}
-                </p> --}}
-
-                {{-- @for($i = 0; $i < count($pizzas); $i++)
-                    <p>{{ $pizzas[$i]['type'] }}</p>
-                @endfor --}}
-
-                @foreach($pizzas as $pizza)
-                    <div class="items">
-                        {{ $pizza->name }} - {{ $pizza->type }} - {{ $pizza->base }}
-                    </div>
-                @endforeach
-               
-            </div>
-        </div>
-
+            @endforeach
+       </div>
         @endsection
