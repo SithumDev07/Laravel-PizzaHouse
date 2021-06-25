@@ -8,6 +8,10 @@
         <div class="image">
             <h1>UVE EAGLE CONFECTIONERIES</h1>
         </div>
+
+        <p class="message">
+            {{ session('message') }}
+        </p>
         
         <a href="/pizzas/create">Order a pizza</a>
        
