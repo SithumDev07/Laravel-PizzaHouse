@@ -45,7 +45,7 @@
         <!-- Hero Copy -->
         <div class="hero-copy">
             <h1>The Taste You Remember</h1>
-            <p>We are the leading confectioneers in Sri Lanka</p>
+            <p>We are the leading fresh food producer in Asia</p>
             <div class="hero-buttons">
                 <a href="#" class="button button-white">Shop</a>
                 <a href="#" class="button button-black">See More</a>
@@ -69,7 +69,7 @@
             <p class="text-center section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam atque dolorum perspiciatis. Temporibus nulla accusamus magnam nam ipsum dolorum, obcaecati explicabo unde eaque voluptas ipsa fugit amet non alias.</p>
             <div class="button-container text-center">
                 <a href="#" class="button">Featured</a>
-                <a href="#" class="button">On Sale</a>
+                <a href="#" class="button button-sale">On Sale</a>
             </div>
         
 

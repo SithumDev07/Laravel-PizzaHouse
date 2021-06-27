@@ -33,6 +33,10 @@
   .blog-section .blog-posts {
     grid-template-columns: 1fr;
     text-align: center;
+    grid-template-areas: "blog1" "blog2" "blog3";
+  }
+  .blog-section .section-description {
+    text-align: center;
   }
 
   footer .footer-content {
@@ -40,9 +44,74 @@
   }
   footer .footer-content .made-width {
     margin: auto;
+    text-align: center;
   }
   footer .footer-content ul {
     margin: 20px auto;
     width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  header .top-nav ul {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .top-nav {
+    padding-bottom: 0;
+  }
+  header .top-nav ul {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  header .top-nav ul li {
+    margin-bottom: 20px;
+  }
+  header .hero .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  header .hero .hero-buttons .button-black {
+    margin-top: 10px;
+  }
+
+  .featured-section .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .featured-section .button-container .button-sale {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header .top-nav .logo {
+    font-size: 40px;
+  }
+  header .top-nav ul {
+    display: none;
+  }
+  header .hero {
+    padding-top: 0px;
+  }
+  header .hero .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  header .hero .hero-buttons .button-black {
+    margin-top: 10px;
+  }
+
+  .featured-section .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .featured-section .button-container .button-sale {
+    margin-top: 10px;
+  }
+
+  footer .footer-content ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
   }
 }

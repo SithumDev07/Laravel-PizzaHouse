@@ -31,7 +31,7 @@
 
         <footer>
             <div class="footer-content container">
-                <div class="made-with">Made with <i class="fa fa-heart"></i> by UVE Eagle Media Unit</div>
+                <div class="made-with">Made by ThirdEye Media</div>
                 <ul>
                     <li>Follow Us:</li>
                     <li>
