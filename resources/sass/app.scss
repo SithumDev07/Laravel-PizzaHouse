@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    font-family: serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
@@ -39,10 +39,21 @@ body {
 a {
     text-decoration: none;
     color: $text-color;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
 
     &:visited {
         color: $text-color;
     }
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+li {
+    list-style: none;
 }
 
 h1,
@@ -74,8 +85,135 @@ img {
     margin: auto;
 }
 
+.button {
+    border: 1px solid $text-color;
+    padding: 12px 40px;
+
+    &:hover {
+        color: $white;
+        background-color: $text-color;
+    }
+}
+
+.button-white {
+    border: 1px solid $white;
+    color: $white !important;
+
+    &:hover {
+        color: $text-color !important;
+        background-color: $white !important;
+    }
+}
+
+.section-description {
+    width: 80%;
+    margin: auto;
+}
+
+.button-container {
+    margin: 80px 0;
+}
+
 header {
-    background-image: url("");
+    background-image: url("/images/header-bg1.jpg");
     background-size: cover;
     color: white;
+
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+
+        .logo {
+            font-size: 48px;
+            font-family: "Dela Gothic One", cursive;
+            text-transform: uppercase;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            text-transform: uppercase;
+            width: 40%;
+
+            a {
+                color: $white;
+                font-size: 18px;
+
+                &:hover {
+                    color: darken($white, 90%);
+                }
+            }
+        }
+    }
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: $gutter;
+    padding-top: 20px;
+    padding-bottom: 84px;
+
+    .hero-image {
+        padding-left: 60px;
+    }
+
+    h1 {
+        font-size: 52px;
+        margin-top: 50px;
+    }
+
+    p {
+        margin: 40px 0;
+    }
+
+    .button {
+        margin-right: 14px;
+    }
+}
+
+.featured-section {
+    padding: 50px 0;
+
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: $gutter;
+    }
+}
+
+.blog-section {
+    background-color: $light-gray-background;
+    border-top: 1px solid $separator-color;
+    padding: 50px 0;
+
+    .blog-posts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: $gutter;
+        margin: 60px 0 60px;
+    }
+}
+
+footer {
+    background: $gray-background;
+    color: $white;
+    padding: 40px 0;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+
+            a {
+                color: $white;
+                font-size: 22px;
+            }
+        }
+    }
 }

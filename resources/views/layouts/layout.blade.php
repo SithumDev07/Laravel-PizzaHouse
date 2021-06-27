@@ -8,6 +8,13 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         {{-- <style>
@@ -15,6 +22,8 @@
         </style> --}}
 
         <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     </head>
     <body>
@@ -27,11 +36,19 @@
                     <li>Follow Us:</li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-globe"></i>
-                            <i class="fa fa-youtube"></i>
-                            <i class="fa fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
                         </a>
                     </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li> 
                 </ul>
             </div>
             <!-- End of Footer Content -->

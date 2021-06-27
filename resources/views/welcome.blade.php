@@ -21,14 +21,20 @@
 
 <header>
     <!-- Top Nav -->
-    <nav class="topnav container">
-        <div class="logo">UVE Eagle Confectioneries</div>
+    <nav class="top-nav container">
+        <div class="logo">Orangies</div>
         <ul>
             <li>
                 <a href="#">Shop</a>
+            </li>
+            <li>
                 <a href="">About</a>
-                <a href="">Blog</a>
-                <a href="">Cart</a>
+            </li>
+            <li>
+                    <a href="">Blog</a>
+            </li>
+            <li>
+                    <a href="">Cart</a>
             </li>
         </ul>
     </nav>
@@ -38,7 +44,7 @@
     <div class="hero container">
         <!-- Hero Copy -->
         <div class="hero-copy">
-            <h1>Taste You Remember</h1>
+            <h1>The Taste You Remember</h1>
             <p>We are the leading confectioneers in Sri Lanka</p>
             <div class="hero-buttons">
                 <a href="#" class="button button-white">Shop</a>
@@ -49,17 +55,19 @@
 
         <!-- Hero Image -->
         <div class="hero-image">
-            <img src="" alt="Hero Image">
+            <img src="/images/2779844.png" alt="Hero Image">
         </div>
         <!-- End of Hero Image -->
     </div>
     <!-- End Hero -->
 
+</header>
+
     <section class="featured-section">
         <div class="container">
             <h1 class="text-center">Featured Products</h1>
-            <p>Here our most popular products among the customers</p>
-            <div class="text-container button-container">
+            <p class="text-center section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam atque dolorum perspiciatis. Temporibus nulla accusamus magnam nam ipsum dolorum, obcaecati explicabo unde eaque voluptas ipsa fugit amet non alias.</p>
+            <div class="button-container text-center">
                 <a href="#" class="button">Featured</a>
                 <a href="#" class="button">On Sale</a>
             </div>
@@ -67,42 +75,42 @@
 
         <div class="products text-center">
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
             <div class="product">
-                <a href="#"><img src="" alt="Product 1"></a>
+                <a href="#"><img src="/images/product.png" alt="Product 1"></a>
                 <a href="#"><div class="product-name">Milk Toffee (XL)</div></a>
                 <div class="product-price">$45.55</div>
             </div>
@@ -121,13 +129,13 @@
 
     <section class="blog-section">
         <div class="container">
-            <h1 class="text-center">From Ou Blog</h1>
+            <h1 class="text-center">Opcoming Products</h1>
             <p class="section-description">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa esse iusto in magni cumque tempore qui labore quos sed dicta autem, aspernatur ut ea? Harum sequi possimus consequuntur quo perferendis.
             </p>
             <div class="blog-posts">
                 <div class="blog-post">
-                    <a href="#"><img src="" alt="Blog Image"></a>
+                    <a href="#"><img src="/images/upcoming-1.png" alt="Blog Image"></a>
                     <a href="#"><h2 class="blog-title">Blog Post Title</h2></a>
                     <div class="blog-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae explicabo laudantium! Deserunt, dolor suscipit ratione pariatur qui exercitationem iusto, perferendis consequatur autem magni fugit aliquam quia esse doloremque natus!
@@ -135,7 +143,7 @@
                 </div>
 
                 <div class="blog-post">
-                    <a href="#"><img src="" alt="Blog Image"></a>
+                    <a href="#"><img src="/images/upcoming-1.png" alt="Blog Image"></a>
                     <a href="#"><h2 class="blog-title">Blog Post Title</h2></a>
                     <div class="blog-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae explicabo laudantium! Deserunt, dolor suscipit ratione pariatur qui exercitationem iusto, perferendis consequatur autem magni fugit aliquam quia esse doloremque natus!
@@ -143,7 +151,7 @@
                 </div>
 
                 <div class="blog-post">
-                    <a href="#"><img src="" alt="Blog Image"></a>
+                    <a href="#"><img src="/images/upcoming-1.png" alt="Blog Image"></a>
                     <a href="#"><h2 class="blog-title">Blog Post Title</h2></a>
                     <div class="blog-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic recusandae explicabo laudantium! Deserunt, dolor suscipit ratione pariatur qui exercitationem iusto, perferendis consequatur autem magni fugit aliquam quia esse doloremque natus!
@@ -156,7 +164,7 @@
     </section>
     <!-- End of Blog Section -->
 
-</header>
+
 
    
     @endsection
