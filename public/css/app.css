@@ -10002,3 +10002,62 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+a:visited {
+  color: #212121;
+}
+
+h1,
+h2 {
+  font-family: serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-image: url("");
+  background-size: cover;
+  color: white;
+}
