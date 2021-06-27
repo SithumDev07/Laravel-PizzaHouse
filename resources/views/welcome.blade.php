@@ -133,7 +133,7 @@
             <p class="section-description">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa esse iusto in magni cumque tempore qui labore quos sed dicta autem, aspernatur ut ea? Harum sequi possimus consequuntur quo perferendis.
             </p>
-            <div class="blog-posts">
+            <div class="blog-posts" id="blog1">
                 <div class="blog-post">
                     <a href="#"><img src="/images/upcoming-1.png" alt="Blog Image"></a>
                     <a href="#"><h2 class="blog-title">Blog Post Title</h2></a>
@@ -142,7 +142,7 @@
                     </div>
                 </div>
 
-                <div class="blog-post">
+                <div class="blog-post" id="blog2">
                     <a href="#"><img src="/images/upcoming-1.png" alt="Blog Image"></a>
                     <a href="#"><h2 class="blog-title">Blog Post Title</h2></a>
                     <div class="blog-description">
@@ -150,7 +150,7 @@
                     </div>
                 </div>
 
-                <div class="blog-post">
+                <div class="blog-post" id="blog3">
                     <a href="#"><img src="/images/upcoming-1.png" alt="Blog Image"></a>
                     <a href="#"><h2 class="blog-title">Blog Post Title</h2></a>
                     <div class="blog-description">
